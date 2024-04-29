@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
     "next": "14.2.2",
     "next-themes": "^0.3.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
     "eslint": "^8",
     "eslint-config-next": "14.2.2",
     "postcss": "^8",
