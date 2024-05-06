@@ -20,7 +20,7 @@ interface item {
 const TrendingPost = ({ item, index }: { item: item; index: number }) => {
   return (
     <li className="trending-post">
-      <Link href={`/postItems/${item._id}`}>
+      <Link href={`/postitems/${item._id}`}>
         <span className="number">{index + 1}</span>
         <h3>{item.title}</h3>
         <span className="author">{item.author}</span>

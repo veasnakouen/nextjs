@@ -5,6 +5,7 @@ import "./style.css";
 import Image from "next/image";
 import Preloader from "@/components/Preloader";
 import SidePostItem from "@/components/SidePostItem";
+import land from "/public/assets/img/post-landscape-3.jpg";
 
 const PostItem = ({ params }: { params: { id: string } }) => {
   const id: string = params.id;
@@ -147,14 +148,16 @@ const PostItem = ({ params }: { params: { id: string } }) => {
                     target="_blank"
                     href="https://youtu.be/gAnaa3DnsLU?si=-eAnemx45a5m0ZoS"
                     className="link-video"
-                  ></a>
-                  <span className="bi-play-fill">
-                    <img
-                      src="/public/assets/img/post-landscape-3.jpg"
+                  >
+                    <span className="bi-play-fill"></span>
+                    <Image
+                      src={land}
                       alt=""
+                      width={0}
+                      height={0}
                       className="img-fluid"
                     />
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>

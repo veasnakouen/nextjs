@@ -18,7 +18,7 @@ const PostItemOne = ({ large, item }: { large: boolean; item: item }) => {
         <span>{new Date(item.date).toLocaleDateString("en-US")}</span>
       </div>
       <h2>
-        <Link href={`postItems/${item._id}`}>{item.title}</Link>
+        <Link href={`postitems/${item._id}`}>{item.title}</Link>
       </h2>
       {large && (
         <>
