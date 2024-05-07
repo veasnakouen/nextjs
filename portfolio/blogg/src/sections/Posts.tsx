@@ -62,7 +62,7 @@ const PostsPage = () => {
   useEffect(() => {
     getItemData();
     //this example with the hard code of the id get from database
-    getSinglePostData("662a101e0204bbf0ee78e654");
+    getSinglePostData("662b2f2d49d2df858659bbbf"); //this is the static (hard code copy id from raw database ) : when delete can effect to this post
   }, []);
   return (
     <section id="posts" className="post ">

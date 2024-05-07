@@ -7,8 +7,8 @@ import { item } from "../sections/Posts";
 const PostItemOne = ({ large, item }: { large: boolean; item: item }) => {
   return (
     <div className={`post-entry-1 ${large ? "lg" : ""}`}>
-      <Link href={`postitems/${item._id}`}>
-        <img src={`/${item.img}`} alt="" />
+      <Link href={`/postitems/${item._id}`}>
+        <img src={item.img} alt="" />
       </Link>
       <div className="post-meta">
         <span className="date">{item.category}</span>
