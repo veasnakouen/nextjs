@@ -139,7 +139,7 @@ export default function HomeComponent() {
                     <a
                       href="ehizcv.pdf" // name of your cv
                       download={`resume.pdf`} // and of the file when download
-                      className={`ml-5 cursor-pointer inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 lf:px-8 md:text-xl lg:text-base md:mt-5 lg:mt-10 hover:bg-[#47AEDE] hover:shadow-lg transform hover:-translate-y-1 ${hind.className}`}
+                      className={`ml-5 cursor-pointer inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 lf:px-8 md:text-xl lg:text-base md:mt-5 lg:mt-10 hover:bg-[#47AEDE] hover:shadow-lg transform hover:-translate-y-1 ${hind.className} `}
                     >
                       My Resume
                     </a>

@@ -25,6 +25,7 @@ export default function Header() {
   const openDrawer = () => {
     setIsOpen(true);
   };
+
   return (
     <>
       <div className={`diagonal-drawer ${isOpen ? "open" : ""}`}>
